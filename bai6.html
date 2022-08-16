@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('Nhap mang ky tu: ')
+    let result = []
+    for ( i = 0; i < a.length ; i++) {
+        if (a[i]!='-')result.push(a[i]);
+        else result.push('_');
+    }
+    alert(result.join(""))
+</script>
+</body>
+</html>
